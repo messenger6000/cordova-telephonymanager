@@ -1,11 +1,13 @@
-This repository is forked from https://github.com/GPeraltP/cordova-plugin-telephonymanagerinfo
+This repository is forked from https://github.com/GPeraltP/cordova-plugin-telephonymanagerinfo 
+
+Adding additional functionality from telephonymanager to scan for cell towers
 
 Cordova Plugin TelephonyManagerInfo
 =================================
 
-Plugin nativo Android haciendo uso de la clase `TelephonyManager`.
+Native Android plugin using the TelephonyManager class.
 
-Se encuentra los siguientes atributos;
+The following attributes can be found:
 
 - phone
 - simSerialNumber
@@ -30,27 +32,27 @@ Se encuentra los siguientes atributos;
 - hasIccCard
 - dataActivity
 
-Puede ver el detalle de Telephony Manager en la web
+You can see the details of the Telephony Manager on the web
 
 http://developer.android.com/reference/android/telephony/TelephonyManager.html
 
-Usos
+Usages
 =================================
 
-Instalación
+Installation
 ```
 cordova plugin add cordova-plugin-telephonymanagerinfo
 ```
-Vía GitHub
+Via GitHub
 ```
 cordova plugin add https://github.com/GPeraltP/cordova-plugin-telephonymanagerinfo
 ```
-Remover
+Remove
 ```
 cordova plugin remove cordova-plugin-telephonymanagerinfo
 ```
 
-Atributos
+Attributes
 =================================
 ```
 TelephonyManagerInfo.phone
@@ -76,7 +78,7 @@ TelephonyManagerInfo.voiceMailNumber
 TelephonyManagerInfo.hasIccCard
 TelephonyManagerInfo.dataActivity
 ```
-Permisos
+Permissions
 =================================
 
 
@@ -85,7 +87,7 @@ android.permission.READ_PHONE_STATE
 android.permission.ACCESS_FINE_LOCATION
 android.permission.ACCESS_BACKGROUND_LOCATION (Android Q)
 ```
-Plataforma
+Platform
 =================================
 ```
 - Android
