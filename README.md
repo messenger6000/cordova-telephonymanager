@@ -1,3 +1,4 @@
+This repository is forked from https://github.com/GPeraltP/cordova-plugin-telephonymanagerinfo
 
 Cordova Plugin TelephonyManagerInfo
 =================================
