@@ -30,18 +30,9 @@
             <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
         tools:ignore="ProtectedPermissions" /> -->
         </config-file>
-        
-        <platform name="ios">
-    <config-file target="config.xml" parent="/*">
-        <feature name="TelephonyManagerInfo">
-            <param name="ios-package" value="TelephonyManagerInfo" />
-        </feature>
-    </config-file>
-
-    <header-file src="src/ios/TelephonyManagerInfo.h" />
-    <source-file src="src/ios/TelephonyManagerInfo.m" />
-            
-</platform>
+       
+    </platform>
+    <platform name="ios">
     </platform>
 
 </plugin>
