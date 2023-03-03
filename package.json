@@ -6,6 +6,7 @@
     "id": "cordova-plugin-telephonymanagerinfo",
     "platforms": [
       "android"
+      "ios"
     ]
   },
   "repository": {
