@@ -11,7 +11,7 @@ import org.json.JSONObject;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
-import androidx.core.app.ActivityCompat
+import androidx.core.app.ActivityCompat;
 import android.os.Build;
 
 import android.telephony.CellInfo;
